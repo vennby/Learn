@@ -11,7 +11,7 @@ learning_material = lit.file_uploader('Upload your learning material here! :bulb
 if learning_material:
     lit.subheader('Step 2: Choose!')
     lit.write('You have uploaded a *474-page e-textbook* titled *"Object-Oriented Design and Patterns"*. It contains *10 chapters*.')
-    choice = lit.radio('How would you like to learn?',['Interactive Textbook','Learning Module','Summarized Textbook','Simplified Audiobook'])
+    choice = lit.radio('How would you like to learn?',['Interactive Textbook','Learning Module','Summarized Text','Simplified Audiobook'])
     
     if lit.button("Click to Convert!"):
         progress_text = "Please wait, the magic is happening!"
